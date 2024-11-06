@@ -13,46 +13,34 @@
 <link rel="stylesheet" href="login-style.css">
 
 <body>
-    <div id="navbar-container">
-        <div id="main-logo">
-            <img src="assets/img/logo.svg" alt="">
-        </div>
-        <div id="navbar-list-items">
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact Us</li>
-                <li id="login-button" onclick="openModal()">Login</a></li>
-                <div id="loginModal" class="modal">
-                    <div class="modal-content">
-                        <span class="close-button" onclick="closeModal()">&times;</span>
-                        <h2>Login</h2>
-                        <form id="loginForm">
-                            <label for="username">Username:</label>
-                            <input type="text" id="username" name="username" required>
+    <!DOCTYPE html>
+    <html lang="en">
 
-                            <label for="password">Password:</label>
-                            <input type="password" id="password" name="password" required>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
 
-                            <button type="submit">Login</button>
-                        </form>
-                    </div>
-                </div>
-            </ul>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login-style.css">
+
+    <body>
+        <div id="navbar-container">
+            <div id="main-logo">
+                <img src="assets/img/logo.svg" alt="">
+            </div>
+            <div id="navbar-list-items">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
         </div>
-    </div>
-    <div id="main-landing-page-content">
-        <div id="landing-page-image">
-            <img src="assets/img/landing-page-img.svg" alt="" width="500px">
-        </div>
-        <div id="landing-page-text-content">
-            <p>Welcome</p>
-            <p>Cuisine Compass</p>
-            <p>Book your next unforgettable dining experience with ease. Fresh flavors, vibrant atmosphere, and a table
-                waiting just for you.</p>
-        </div>
-    </div>
-    <script src="login-script.js"></script>
+    </body>
+
+    </html>
     <div class="onboard-container">
         <h2>Welcome, <span id="username-display"></span></h2>
         <form id="onboardForm">

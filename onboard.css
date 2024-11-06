@@ -1,0 +1,60 @@
+/* General styles for the form */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f7fc;
+    margin: 0;
+    padding: 0;
+}
+
+/* Onboarding container */
+.onboard-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Heading styles */
+.onboard-container h2 {
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    font-weight: 600;
+}
+
+/* Input field styles */
+.onboard-container input[type="text"],
+.onboard-container input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+/* Submit button styles */
+.onboard-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+/* Hover effect for button */
+.onboard-container button:hover {
+    background-color: #2980b9;
+}
+
+/* Welcome text styles */
+.onboard-container #username-display {
+    color: #3498db;
+    font-weight: bold;
+    font-size: 1.2em;
+}
