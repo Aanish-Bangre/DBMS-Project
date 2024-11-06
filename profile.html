@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="profile-container">
+        <h2>Your Profile</h2>
+        <p><strong>Username:</strong> <span id="profile-username"></span></p>
+        <p><strong>Contact Number:</strong> <span id="profile-contact"></span></p>
+        <p><strong>Date of Birth:</strong> <span id="profile-dob"></span></p>
+    </div>
+    <script>
+        // Display user data from localStorage
+        document.getElementById("profile-username").innerText = localStorage.getItem("username");
+        document.getElementById("profile-contact").innerText = localStorage.getItem("contact");
+        document.getElementById("profile-dob").innerText = localStorage.getItem("dob");
+    </script>
+</body>
+</html>

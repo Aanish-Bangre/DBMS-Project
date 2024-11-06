@@ -4,9 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Onboarding</title>
+
 </head>
 
+<link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="login-style.css">
 
@@ -28,10 +30,10 @@
                         <form id="loginForm">
                             <label for="username">Username:</label>
                             <input type="text" id="username" name="username" required>
-                
+
                             <label for="password">Password:</label>
                             <input type="password" id="password" name="password" required>
-                
+
                             <button type="submit">Login</button>
                         </form>
                     </div>
@@ -51,5 +53,37 @@
         </div>
     </div>
     <script src="login-script.js"></script>
+    <div class="onboard-container">
+        <h2>Welcome, <span id="username-display"></span></h2>
+        <form id="onboardForm">
+            <label for="contact">Contact Number:</label>
+            <input type="text" id="contact" name="contact" required>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+
+            <button type="submit">Continue</button>
+        </form>
+    </div>
+    <script>
+        // Display username from localStorage
+        document.getElementById("username-display").innerText = localStorage.getItem("username");
+
+        // Handle onboarding form submission
+        document.getElementById("onboardForm").onsubmit = function (event) {
+            event.preventDefault();
+
+            // Store user data in local storage
+            const contact = document.getElementById("contact").value;
+            const dob = document.getElementById("dob").value;
+
+            localStorage.setItem("contact", contact);
+            localStorage.setItem("dob", dob);
+
+            // Redirect to the profile page
+            window.location.href = "profile.html";
+        };
+    </script>
 </body>
+
 </html>
