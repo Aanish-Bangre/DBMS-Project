@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 
 body {
@@ -23,7 +24,7 @@ body {
     font-weight: bold;
     gap: 80px;
     font-size: 15px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;;
 
 }
 
