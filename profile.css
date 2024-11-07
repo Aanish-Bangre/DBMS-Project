@@ -1,0 +1,94 @@
+/* Profile container styling */
+.profile-container {
+    font-family: 'Poppins', sans-serif;
+    /* max-width: 400px; */
+    width: 97%;
+    height: fit-content;
+    padding: 100px 20px;
+    /* background-color: rgba(255, 255, 255, 0.95); */
+    border-radius: 12px;
+    /* box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3); */
+    text-align: center;
+    transform: translateY(-20px);
+    opacity: 0;
+    animation: fadeInUp 0.6s ease-out forwards;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Animation for container appearance */
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Heading styling */
+.profile-container h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
+/* Styling for labels and data */
+.profile-container p {
+    font-size: 1.1em;
+    color: #555;
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.profile-container p:hover {
+    background-color: #e3e7ec;
+}
+
+.profile-container strong {
+    color: #3498db;
+}
+
+.profile-container span {
+    font-weight: 600;
+    color: #333;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .profile-container {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .profile-container h2 {
+        font-size: 1.6em;
+    }
+
+    .profile-container p {
+        font-size: 1em;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px;
+    }
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}

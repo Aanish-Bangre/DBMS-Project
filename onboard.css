@@ -27,7 +27,7 @@ body {
 /* Input field styles */
 .onboard-container input[type="text"],
 .onboard-container input[type="date"] {
-    width: 100%;
+    width: 93%;
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #ddd;

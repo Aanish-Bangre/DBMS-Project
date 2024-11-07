@@ -11,6 +11,7 @@
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="login-style.css">
+<link rel="stylesheet" href="profile.css">
 
 <body>
     <!DOCTYPE html>
@@ -38,14 +39,16 @@
                 </ul>
             </div>
         </div>
-    </body>
-
-    </html>
     <div class="profile-container">
-        <h2>Your Profile</h2>
-        <p><strong>Username:</strong> <span id="profile-username"></span></p>
-        <p><strong>Contact Number:</strong> <span id="profile-contact"></span></p>
-        <p><strong>Date of Birth:</strong> <span id="profile-dob"></span></p>
+        <div class= "profile-heading">
+            <img src="assets/img/profile.svg" alt="" width="90px">
+            <h2>Your Profile</h2>
+        </div>
+        <div class="info">
+            <p><strong>Username:</strong> <span id="profile-username"></span></p>
+            <p><strong>Contact Number:</strong> <span id="profile-contact"></span></p>
+            <p><strong>Date of Birth:</strong> <span id="profile-dob"></span></p>
+        </div>
     </div>
     <script>
         // Display user data from localStorage
