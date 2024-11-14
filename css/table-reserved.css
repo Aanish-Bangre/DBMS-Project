@@ -1,0 +1,87 @@
+/* Container for the reservation details */
+.reservation-container {
+    font-family: 'Poppins';
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 50px auto;
+    position: relative;
+    z-index: 100;
+}
+
+/* Header */
+h1 {
+    text-align: center;
+    color: #9b2015;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+/* User info section */
+.user-info {
+    padding: 10px 20px;
+    background-color: #9b20151a;
+    border-radius: 10px;
+}
+
+.user-info p {
+    font-size: 16px;
+}
+
+/* Restaurant info section */
+.restaurant-info {
+    padding: 10px 20px;
+}
+
+.restaurant-info h2 {
+    color: #9b2015;
+    margin-bottom: 10px;
+}
+
+.restaurant-info p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+/* Reservation info section */
+.reservation-info {
+    padding: 10px 20px;
+}
+
+.reservation-info h2 {
+    color: #9b2015;
+    margin-bottom: 10px;
+}
+
+.reservation-info p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+/* Success message */
+.success-message {
+    text-align: center;
+    color: #28a745;
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Ensure responsiveness on small screens */
+@media (max-width: 600px) {
+    .reservation-container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .user-info p,
+    .restaurant-info p,
+    .reservation-info p {
+        font-size: 14px;
+    }
+}
