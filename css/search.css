@@ -132,9 +132,10 @@
 }
 
 .restaurant-name{
-    line-height: 50px;
+    line-height: 25px;
     color: #971f15;
     font-size: 20px;
+    margin-bottom: 10px;
 }
 
 .reserve-btn{

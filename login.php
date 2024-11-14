@@ -26,7 +26,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Set an error message if login fails
         $error_message = "Invalid username or password.";
     }
-
 }
 ?>
 
@@ -58,7 +57,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <input type="text" name="username" placeholder="Username" required>
                 <label for="password">Password :</label>
                 <input type="password" placeholder="Password" name="password" required>
-                <input type="submit" name="submit" value="Login" style="color: white; border: none; border-radius: 20px; font-family: 'Poppins'; background-color: #007bff; font-weight: bold; margin-top: 10px; padding: 8px 180px; font-size: 14px;">
+                <input type="submit" name="submit" value="Login" style="cursor:pointer;color: white; border: none; border-radius: 20px; font-family: 'Poppins'; background-color: #007bff; font-weight: bold; margin-top: 10px; padding: 8px 180px; font-size: 14px;">
             </form>
         </div>
     </div>

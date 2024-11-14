@@ -63,7 +63,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <input type="text" name="username" placeholder="Username" required>
         <label for="password">Password :</label>
         <input type="password" placeholder="Password" name="password" required>
-        <input type="submit" name="submit" value="Register" style="color: white;border: none;border-radius: 20px;font-family: 'Poppins';background-color: #007bff;font-weight: bold;margin-top: 10px;padding: 8px 170px;font-size: 14px;padding: 10px;width: 99%;">
+        <input type="submit" name="submit" value="Register" style="cursor:pointer;color: white;border: none;border-radius: 20px;font-family: 'Poppins';background-color: #007bff;font-weight: bold;margin-top: 10px;padding: 8px 170px;font-size: 14px;padding: 10px;width: 99%;">
       </form>
     </div>
   </div>
