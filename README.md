@@ -27,7 +27,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/yourusername/restaurant-reservation.git  
+git clone [https://github.com/yourusername/restaurant-reservation.git  ](https://github.com/Aanish-Bangre/DBMS-Project.git)
 Install XAMPP or any other local server.
 
 Import the database:
